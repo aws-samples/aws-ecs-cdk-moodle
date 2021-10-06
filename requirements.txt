@@ -1,0 +1,9 @@
+-e .
+aws_cdk.core
+aws_cdk.aws_ec2
+aws_cdk.aws_ecs
+aws_cdk.aws_rds
+aws_cdk.aws_efs
+aws_cdk.aws_ecr_assets
+aws_cdk.aws_elasticloadbalancingv2
+
