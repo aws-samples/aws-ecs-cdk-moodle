@@ -5,7 +5,7 @@ SPDX-License-Identifier: MIT-0
 
 # Deploying Moodle with Containers in Amazon ECS using AWS CDK
 
-WARNING! Deploying this projet will create AWS resources. Make sure you are aware of the costs and be sure to destory the stacks when you are done by running cdk destory
+WARNING! Deploying this project will create AWS resources. Make sure you are aware of the costs and be sure to destory the stacks when you are done by running cdk destory
 
 This package depends on and may incorporate or retrieve a number of third-party software packages (such as open source packages) at install-time or build-time or run-time ("External Dependencies"). The External Dependencies are subject to license terms that you must accept in order to use this package. If you do not accept all of the applicable license terms, you should not use this package. We recommend that you consult your company's open source approval policy before proceeding.
 
@@ -72,7 +72,7 @@ The terminal prompt should be prepended with a **(.venv)** if you have activated
 pip3 install -r requirements.txt
 ```
 ### Review
-Application is composed of different stacks each with a different purpose, you can review the code to get a general understaing, also you can update default Moodle credentials in Application stack (ApplicationStack.py) or leave it as it is for the sample.
+Application is composed of different stacks each with a different purpose, you can review the code to get a general understanding, also you can update default Moodle credentials in Application stack (ApplicationStack.py) or leave it as it is for the sample.
 
 ### Deploy 
 1. Deploy the project using the following command in the root of the aws-ecs-cdk-moodle folder substituting username and password as required(by default it will ask confirmation before deploying every stack, you can override this with the "--require-approval never" flag, use it with caution)
